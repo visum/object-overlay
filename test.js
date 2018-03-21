@@ -70,7 +70,7 @@ const deepTest = function() {
   try {
     assert(inputData.d.dd.ddd.dddd === "dddd");
     assert(inputData.d.dd2.dd2d2 === "dd2d2");
-    assert(inputData.d.dd2.dd2d[3].dd2d4d === "dd2d4d");
+    assert(inputData.d.dd2.dd2d[3].dd2d4d === "got me!");
     return true;
   } catch(error) {
     return error.message;
