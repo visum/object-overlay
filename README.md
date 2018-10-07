@@ -1,3 +1,5 @@
+Better implementations of this are available elsewhere, like in lodash, so this is archived and I never really used it. I don't want to delete though, 'cuz I might find it fun to look back and chuckle at past me sometime in the future.
+
 # object-overlay
 Deeply apply values from a source object to a target which lacks properties from the source.
 
